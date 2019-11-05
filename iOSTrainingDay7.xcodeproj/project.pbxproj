@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A73AE8C423711A04005E1151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE8C323711A04005E1151 /* AppDelegate.m */; };
-		A73AE8C723711A04005E1151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE8C623711A04005E1151 /* ViewController.m */; };
 		A73AE8CA23711A04005E1151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73AE8C823711A04005E1151 /* Main.storyboard */; };
 		A73AE8CC23711A05005E1151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73AE8CB23711A05005E1151 /* Assets.xcassets */; };
 		A73AE8CF23711A05005E1151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73AE8CD23711A05005E1151 /* LaunchScreen.storyboard */; };
 		A73AE8D223711A05005E1151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE8D123711A05005E1151 /* main.m */; };
 		A73AE8DC23711A05005E1151 /* iOSTrainingDay7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE8DB23711A05005E1151 /* iOSTrainingDay7Tests.m */; };
 		A73AE8E723711A05005E1151 /* iOSTrainingDay7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE8E623711A05005E1151 /* iOSTrainingDay7UITests.m */; };
+		A73AE8F623711FDA005E1151 /* ViewControllerPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE8F523711FDA005E1151 /* ViewControllerPhotoAlbum.m */; };
+		A73AE8FF237120D5005E1151 /* ColectionCellAlbum.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73AE8FE237120D5005E1151 /* ColectionCellAlbum.xib */; };
+		A73AE902237120F6005E1151 /* CollectionCellAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE901237120F6005E1151 /* CollectionCellAlbum.m */; };
+		A73AE9082371524C005E1151 /* ViewControllerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A73AE9072371524C005E1151 /* ViewControllerDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,6 @@
 		A73AE8BF23711A04005E1151 /* iOSTrainingDay7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTrainingDay7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73AE8C223711A04005E1151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A73AE8C323711A04005E1151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A73AE8C523711A04005E1151 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A73AE8C623711A04005E1151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A73AE8C923711A04005E1151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A73AE8CB23711A05005E1151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73AE8CE23711A05005E1151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,13 @@
 		A73AE8E223711A05005E1151 /* iOSTrainingDay7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTrainingDay7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73AE8E623711A05005E1151 /* iOSTrainingDay7UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTrainingDay7UITests.m; sourceTree = "<group>"; };
 		A73AE8E823711A05005E1151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73AE8F423711FDA005E1151 /* ViewControllerPhotoAlbum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerPhotoAlbum.h; sourceTree = "<group>"; };
+		A73AE8F523711FDA005E1151 /* ViewControllerPhotoAlbum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPhotoAlbum.m; sourceTree = "<group>"; };
+		A73AE8FE237120D5005E1151 /* ColectionCellAlbum.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColectionCellAlbum.xib; sourceTree = "<group>"; };
+		A73AE900237120F6005E1151 /* CollectionCellAlbum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionCellAlbum.h; sourceTree = "<group>"; };
+		A73AE901237120F6005E1151 /* CollectionCellAlbum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionCellAlbum.m; sourceTree = "<group>"; };
+		A73AE9062371524C005E1151 /* ViewControllerDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerDetails.h; sourceTree = "<group>"; };
+		A73AE9072371524C005E1151 /* ViewControllerDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,11 @@
 		A73AE8C123711A04005E1151 /* iOSTrainingDay7 */ = {
 			isa = PBXGroup;
 			children = (
+				A73AE8F723712043005E1151 /* Collection */,
 				A73AE8C223711A04005E1151 /* AppDelegate.h */,
 				A73AE8C323711A04005E1151 /* AppDelegate.m */,
-				A73AE8C523711A04005E1151 /* ViewController.h */,
-				A73AE8C623711A04005E1151 /* ViewController.m */,
+				A73AE9062371524C005E1151 /* ViewControllerDetails.h */,
+				A73AE9072371524C005E1151 /* ViewControllerDetails.m */,
 				A73AE8C823711A04005E1151 /* Main.storyboard */,
 				A73AE8CB23711A05005E1151 /* Assets.xcassets */,
 				A73AE8CD23711A05005E1151 /* LaunchScreen.storyboard */,
@@ -130,6 +139,26 @@
 				A73AE8E823711A05005E1151 /* Info.plist */,
 			);
 			path = iOSTrainingDay7UITests;
+			sourceTree = "<group>";
+		};
+		A73AE8F723712043005E1151 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				A73AE8F423711FDA005E1151 /* ViewControllerPhotoAlbum.h */,
+				A73AE8F523711FDA005E1151 /* ViewControllerPhotoAlbum.m */,
+				A73AE8F823712062005E1151 /* Cell */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		A73AE8F823712062005E1151 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A73AE8FE237120D5005E1151 /* ColectionCellAlbum.xib */,
+				A73AE900237120F6005E1151 /* CollectionCellAlbum.h */,
+				A73AE901237120F6005E1151 /* CollectionCellAlbum.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73AE8FF237120D5005E1151 /* ColectionCellAlbum.xib in Resources */,
 				A73AE8CF23711A05005E1151 /* LaunchScreen.storyboard in Resources */,
 				A73AE8CC23711A05005E1151 /* Assets.xcassets in Resources */,
 				A73AE8CA23711A04005E1151 /* Main.storyboard in Resources */,
@@ -262,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73AE8C723711A04005E1151 /* ViewController.m in Sources */,
+				A73AE9082371524C005E1151 /* ViewControllerDetails.m in Sources */,
 				A73AE8D223711A05005E1151 /* main.m in Sources */,
 				A73AE8C423711A04005E1151 /* AppDelegate.m in Sources */,
+				A73AE902237120F6005E1151 /* CollectionCellAlbum.m in Sources */,
+				A73AE8F623711FDA005E1151 /* ViewControllerPhotoAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

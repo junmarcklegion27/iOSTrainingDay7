@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  CollectionCellAlbum.m
 //  iOSTrainingDay7
 //
 //  Created by OPS on 11/5/19.
 //  Copyright © 2019 OPSolutions. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CollectionCellAlbum.h"
 
-@interface ViewController : UIViewController
-
+@implementation CollectionCellAlbum
 
 @end
-
